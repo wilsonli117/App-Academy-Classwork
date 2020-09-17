@@ -1,0 +1,18 @@
+.sections-links {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.sections-links > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // margin: 5px auto;
+    padding: 5px;
+    width: 80%;
+}
+
+.sections-links > ul > li:hover {
+    background-color: #e2e2e2;
+}

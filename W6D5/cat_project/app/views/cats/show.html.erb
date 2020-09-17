@@ -1,0 +1,25 @@
+<h1>Cat For Rent</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th> <%= @cat.name %> </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Birth Day:</td>
+            <td><%= @cat.birth_date %></td>
+        </tr>
+        <tr>
+            <td>Color:</td>
+            <td><%= @cat.color.capitalize %></td>
+        </tr>
+            <td>Sex:</td>
+            <td><%= @cat.sex.upcase %></td>
+        <tr>
+            <td>Description:</td>
+            <td><%= @cat.description %></td>
+        </tr>
+    </tbody>
+</table>

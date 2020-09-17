@@ -1,0 +1,90 @@
+body {
+    display:flex;
+    justify-content: space-around;
+}
+
+.clock {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    width: 550px;
+    margin: 25px;
+}
+
+.clock .time {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.clock .date {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.clock div {
+    background-color: orange;
+    width: 550 px;
+    border: 1px solid black;
+  
+}
+
+.tabh1 {
+    font-size: 30px;
+     font-family: 'Pacifico', cursive;
+}
+
+.tabs {
+    width: 240px;
+    height: 200px;
+    
+}
+
+.headers {
+    width: 210px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+
+.headers h1 {
+    border: 1px solid black;
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.headers h1:hover {
+    color: white;
+    background-color: black;
+}
+
+.headers h1:active {
+    font-weight: bold;
+    background-color: black;
+}
+
+.content {
+    height: 240px;
+    width: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;    
+    color: white;
+    border: 1px solid black;
+    font-size: 20px;
+}

@@ -1,0 +1,12 @@
+<h1> CATS PAGE </h1>     
+
+<ul>
+<% @cats.each do |cat| %>
+
+    <li>
+        <a href="<%= cat_url(cat.id) %>">
+            <%= "Name: #{cat.name}" %> * <%= "#{cat.age} years old" %> * <%= "Gender: #{cat.sex}" %>
+        </a>
+    </li>
+<% end %>
+</ul>

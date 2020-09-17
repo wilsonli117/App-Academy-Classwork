@@ -1,0 +1,31 @@
+/* PHASE 9: Forms */
+
+/* Topics:
+
+Pseudo-selectors
+Box-shadow
+Border-radius
+Calc */
+
+.content-main {
+    display: flex;
+}
+
+.post {
+    background-color: lightgray;
+    box-shadow: 0 0 1px 1px gray;
+    border-radius: 3px;
+}
+
+.post > label {
+    font-weight: 700;
+}
+
+.post-button {
+    
+}
+
+.post-title:focus {
+
+}
+
